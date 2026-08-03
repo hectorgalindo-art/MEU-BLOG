@@ -1,7 +1,17 @@
-root{
+:root {
     --azul: #003049ff;
     --vermelho: #d62828ff;
     --laranga: #f77f00ff;
     --amarelo: #fcbf49ff;
-    
+    --texto: "Saira", sans-serif;
+    --titulo: "Archivo Black", sans-serif;
+}
+
+body {
+    background-color: var(--vermelho);
+    font-family: var(--texto);
+}
+
+header {
+    background-color: var(--azul)
 }
